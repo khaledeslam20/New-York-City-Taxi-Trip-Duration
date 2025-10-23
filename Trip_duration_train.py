@@ -17,8 +17,8 @@ def evaluate_model(y_true, y_pred):
 
 def main() :
     parser = argparse.ArgumentParser()
-    parser.add_argument('--train_path',type = str, default = r'D:\programming\ML\modeling and data concept\project 1\full data\train.csv')
-    parser.add_argument('--val_path',type = str, default =  r'D:\programming\ML\modeling and data concept\project 1\full data\val.csv')
+    parser.add_argument('--train_path',type = str, default = r'train.csv')
+    parser.add_argument('--val_path',type = str, default =  r'val.csv')
     parser.add_argument('--alpha', type=float, default=1.0, help='Ridge regression alpha parameter')
     parser.add_argument('--scaler', type=str, default='minmax', choices=['minmax', 'standard'], help='Scaler type')
     parser.add_argument('--target_col', type=str, default='log_trip_duration', help="Target column name")

@@ -13,7 +13,7 @@ I also experimented with **polynomial feature transformations** to explore poten
 
 ---
 
-## About data
+## About data(raw features)
 <img width="1117" height="627" alt="Screenshot 2025-10-23 212040" src="https://github.com/user-attachments/assets/678b94bf-e70b-45d1-8d66-6d63a79627b1" />
 
 ---

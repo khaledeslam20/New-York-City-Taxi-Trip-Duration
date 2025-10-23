@@ -153,6 +153,8 @@ python Predict.py \
 
 ## final model features
 
+**Note: Section 4 of the report contains a detailed explanation of each feature, its impact on performance, and additional insights. Please refer to it for more information.**
+
 **1- Temporal Feature Extraction**
 
 - **start_hour**: hour of the day (0–23)
